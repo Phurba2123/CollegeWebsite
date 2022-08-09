@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DOLPO BHIJER</title>
+   <link rel="shortcut icon" href="Images/stu.ico" />
+   <link rel="stylesheet" href="Text.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+    .checked {
+      color: orange;
+    }
+    </style>
+</head>
+<body>
+  <section class="inter-section">
+     <nav>
+        <a href="Index.html"><img src="Images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-close" style="font-size:25px;" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="Index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="courses.html">COURSES</a></li>
+                <li> <a href="blogs.html">BLOGS</a></li>
+                <li> <a href="contact.html">CONTACS</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1>About Us</h1>
+  </section>
+
+<!---About Content-------------------------------------->
+<section class="abt-us">
+    <div class="row">
+        <div class="abt-col">
+            <h1>We are the World's Largest University</h1>
+            <p>Dolpa District, is a district, located in Karnali Province of Nepal, 
+            It is one of the seventy-seven districts of Nepal and one of ten district of Karnali. 
+            The district, with Dunai as its district headquarters, covers an area of 7,889 km² and 
+            has a population of 36,700. Dolpa is the largest district of Nepal.</p> 
+            <a href=""class="Button red-btn">EXPLORE NOW</a>    
+        </div>
+        <div class="abt-col">    
+            <img src="Images/about.jpg">      
+        </div>
+    </div>
+</section>
+
+<!-------------Footer------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Tech One Global is a Gold Certified go-to partner for 
+      Microsoft technologies and the <br> leading provider of end-to-end ECM Solutions.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/TechOneNepal/" class="fa fa-facebook" target=”_blank”></a>
+      <a href="https://twitter.com/techoneglobal" class="fa fa-twitter" target=”_blank”></a>
+      <a href="https://www.instagram.com/explore/locations/9282936/tech-one-global-brunei/?hl=en" class="fa fa-instagram" target=”_blank”></a>
+      <a href="https://www.linkedin.com/company/techoneglobal/mycompany/" class="fa fa-linkedin" target=”_blank”></a>
+    </div>
+    <p>&copy; 2022 Mukporong Himal Primary School, Bhijer, Dolpa</p>
+  </section>
+
+  <script>
+    var navlinks =document.getElementById("navlinks");
+    function showMenu (){
+      navlinks.style.right="0";
+    }
+    function hideMenu (){
+      navlinks.style.right="-200px";
+    }
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DOLPO BHIJER</title>
+   <link rel="shortcut icon" href="Images/stu.ico" />
+   <link rel="stylesheet" href="Text.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+    .checked {
+      color: orange;
+    }
+    </style>
+</head>
+<body>
+  <section class="inter-section">
+     <nav>
+        <a href="Index.html"><img src="Images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-close" style="font-size:25px;" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="Index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="courses.html">COURSES</a></li>
+                <li> <a href="blogs.html">BLOGS</a></li>
+                <li> <a href="contact.html">CONTACS</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1>Contact Us</h1>
+  </section>
+
+  <!----------------------Contacts Us----------->
+
+  <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444467.8163024736!2d82.59894415070863!3d29.50455743279543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39bcf5e0fe0bd9a1%3A0x8080a987bcaad0ea!2sBhijer!5e0!3m2!1sen!2snp!4v1658464951687!5m2!1sen!2snp" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section class="contact-us">
+    <div class="row">
+        <div class="cont-col">
+            <div>
+                <i href="" class="fa fa-home"></i>
+                <span>
+                    <h5>Bhijer, Dolpa, Mukporong Karnali</h5>
+                    <p>Dolpa, Karnali</p>
+                </span>
+            </div>
+            <div>
+                <i href="" class="fa fa-phone"></i>
+                <span>
+                    <h5>+977-9801075832</h5>
+                    <p>Sunday to Friday Open.</p>
+                </span>
+            </div>
+            <div>
+                <i href="" class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>phurbatsering950@gmail.com</h5>
+                    <p>Email us your queries.</p>
+                </span>
+            </div>
+        </div>
+
+    <div class="cont-col">
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter email address" required>
+            <input type="text" name="subject" placeholder="Enter your subject" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="Button red-btn">Send message</button>
+        </form>
+    </div>
+  </section>
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Tech One Global is a Gold Certified go-to partner for 
+      Microsoft technologies and the <br> leading provider of end-to-end ECM Solutions.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/TechOneNepal/" class="fa fa-facebook" target=”_blank”></a>
+      <a href="https://twitter.com/techoneglobal" class="fa fa-twitter" target=”_blank”></a>
+      <a href="https://www.instagram.com/explore/locations/9282936/tech-one-global-brunei/?hl=en" class="fa fa-instagram" target=”_blank”></a>
+      <a href="https://www.linkedin.com/company/techoneglobal/mycompany/" class="fa fa-linkedin" target=”_blank”></a>
+    </div>
+    <p>&copy; 2022 Mukporong Himal Primary School, Bhijer, Dolpa</p>
+  </section>
+
+  <script>
+    var navlinks =document.getElementById("navlinks");
+    function showMenu (){
+      navlinks.style.right="0";
+    }
+    function hideMenu (){
+      navlinks.style.right="-200px";
+    }
+  </script>
+</body>
+</html>
+
+

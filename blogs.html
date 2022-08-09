@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DOLPO BHIJER</title>
+   <link rel="shortcut icon" href="Images/stu.ico" />
+   <link rel="stylesheet" href="Text.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,600&display=swap">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+    .checked {
+      color: orange;
+    }
+    </style>
+</head>
+<body>
+  <section class="inter-section">
+     <nav>
+        <a href="Index.html"><img src="Images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-close" style="font-size:25px;" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="Index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="courses.html">COURSES</a></li>
+                <li> <a href="blogs.html">BLOGS</a></li>
+                <li> <a href="contact.html">CONTACS</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1>Our Facilities and Online Courses for 2022</h1>
+  </section>
+
+  <!----------------------Blogs Page Contents----------->
+
+  <section class="blog-cont">
+    <div class="row">
+        <div class="blog-left">
+           <img src="Images/certificate.jpg">
+           <h2>Our Facilities and Online Courses for 2022</h2>
+           <p>Dolpa region is a distant region of Nepal and the central point of this area is Shey 
+            Phoksumdo National Park. The east and south of Dolpa are surrounded by 
+            the Dhaulagiri and Churen Himal ranges and to the west is the Jumla district.</p> <br>
+            <p> Trekking to Lower Dolpa offers you the remarkable and breathtaking experience of a lifetime. 
+                The notable features seen here are snowy peaks, ancient and remote villages, rich wildlife, 
+                lovely Buddhist monasteries and wonderful lakes. 
+                The people of this area are simple and warm-hearted with an enthralling culture 
+                and traditions</p> <br>
+            <p>Trekking into Dolpa presents an exposure to the high and remote Himalayan valleys, resembling the 
+                Tibetan highlands. The main highlight of Dolpa trekking includes “Shey Phoksundo National
+                 Park” which is one of the major national parks of Nepal.</p> <br>
+            <p>“Shey Phoksundo Lake” is another famous feature of this region. The lake is totally free of aquatic life, which the crystal waters clearly demonstrate. Surrounded by rocks, forests, 
+                and snow-capped peaks, the area has been described as one of the world's “Natural Hidden Wonders”.</p>
+
+                 <div class="comment-box">
+                    <h3>Leave a comment below</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="Button red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+        </div>
+        <div class="blog-right">
+         <h3>Post Categories</h3>  
+         <div> 
+          <span>Business Analytics</span>
+          <span>51</span>
+       </div>     
+       <div> 
+        <span>Data Science</span>
+        <span>21</span>
+     </div> 
+     <div> 
+        <span>Machine Learning</span>
+        <span>20</span>
+     </div>   
+     <div> 
+        <span>Accounting</span>
+        <span>81</span>
+     </div> 
+     <div> 
+        <span>Chartered Accounting</span>
+        <span>8</span>
+     </div>   
+     <div> 
+        <span>Hotel Management</span>
+        <span>11</span>
+     </div>  
+     <div> 
+        <span>Journel</span>
+        <span>29</span>
+     </div>    
+    </div>
+</div>
+</section>
+
+<!-------------Footer------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Tech One Global is a Gold Certified go-to partner for 
+      Microsoft technologies and the <br> leading provider of end-to-end ECM Solutions.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/TechOneNepal/" class="fa fa-facebook" target=”_blank”></a>
+      <a href="https://twitter.com/techoneglobal" class="fa fa-twitter" target=”_blank”></a>
+      <a href="https://www.instagram.com/explore/locations/9282936/tech-one-global-brunei/?hl=en" class="fa fa-instagram" target=”_blank”></a>
+      <a href="https://www.linkedin.com/company/techoneglobal/mycompany/" class="fa fa-linkedin" target=”_blank”></a>
+    </div>
+    <p>&copy; 2022 Mukporong Himal Primary School, Bhijer, Dolpa</p>
+  </section>
+
+  <script>
+    var navlinks =document.getElementById("navlinks");
+    function showMenu (){
+      navlinks.style.right="0";
+    }
+    function hideMenu (){
+      navlinks.style.right="-200px";
+    }
+  </script>
+</body>
+</html>
+
+
